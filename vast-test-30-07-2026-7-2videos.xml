@@ -9,7 +9,7 @@
       <Creatives>
         <Creative id="creative-1003" sequence="1">
           <Linear>
-            <Duration>00:00:51</Duration>
+            <Duration>00:00:15</Duration>
             <TrackingEvents>
               <Tracking event="start">
                 <![CDATA[ https://tracking.example.com/start ]]>
@@ -32,7 +32,7 @@
         </Creative>
         <Creative id="creative-1005" sequence="2">
           <Linear>
-            <Duration>00:00:49</Duration>
+            <Duration>00:00:15</Duration>
             <TrackingEvents>
               <Tracking event="start">
                 <![CDATA[ https://tracking.example.com/start ]]>
