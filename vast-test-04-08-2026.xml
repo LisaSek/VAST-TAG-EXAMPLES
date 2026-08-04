@@ -1,0 +1,36 @@
+<VAST version="3.0">
+  <Ad id="1003">
+    <InLine>
+      <AdSystem version="1.0">ExampleAdSystem</AdSystem>
+      <AdTitle>Happy Path Ad</AdTitle>
+      <Impression>
+        <![CDATA[ https://tracking.example.com/impression ]]>
+      </Impression>
+      <Creatives>
+        <Creative id="creative-1003" sequence="1">
+          <Linear>
+            <Duration>00:00:30</Duration>
+            <TrackingEvents>
+              <Tracking event="start">
+                <![CDATA[ https://tracking.example.com/start ]]>
+              </Tracking>
+              <Tracking event="complete">
+                <![CDATA[ https://tracking.example.com/complete ]]>
+              </Tracking>
+            </TrackingEvents>
+            <VideoClicks>
+              <ClickThrough>
+                <![CDATA[ https://example.com ]]>
+              </ClickThrough>
+            </VideoClicks>
+            <MediaFiles>
+              <MediaFile id="mf-1004" delivery="progressive" type="video/mp4" width="1280" height="720" bitrate="2000">
+                <![CDATA[ https://ads-manager-creatives-qa.s3.amazonaws.com/uploads/5b5af2c8-61f1-4cff-8aef-3f8cd11d3204.mov]]>
+              </MediaFile>
+            </MediaFiles>
+          </Linear>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+</VAST>
