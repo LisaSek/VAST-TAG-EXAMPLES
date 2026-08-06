@@ -9,7 +9,7 @@
       <Creatives>
         <Creative id="creative-1003" sequence="1">
           <Linear>
-            <Duration>00:00:15</Duration>
+            <Duration>00:00:30</Duration>
             <TrackingEvents>
               <Tracking event="start">
                 <![CDATA[ https://tracking.example.com/start ]]>
@@ -25,7 +25,7 @@
             </VideoClicks>
             <MediaFiles>
               <MediaFile id="mf-1004" delivery="progressive" type="video/mp4" width="1280" height="720" bitrate="2000">
-                <![CDATA[ https://samplelib.com/mp4/sample-15s-720p.mp4]]>
+                <![CDATA[ https://samplelib.com/mp4/sample-30s-720p.mp4]]>
               </MediaFile>
             </MediaFiles>
           </Linear>
