@@ -24,9 +24,6 @@
               </ClickThrough>
             </VideoClicks>
             <MediaFiles>
-              <MediaFile id="mf-1004" delivery="progressive" type="video/mp4" width="1280" height="720" bitrate="2000">
-                <![CDATA[ https://samplelib.com/mp4/sample-30s-720p.mp4]]>
-              </MediaFile>
             </MediaFiles>
           </Linear>
         </Creative>
